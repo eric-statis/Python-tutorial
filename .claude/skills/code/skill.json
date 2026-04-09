@@ -1,0 +1,26 @@
+{
+  "name": "代码",
+  "description": "Python 代码辅助工具 - 格式化、检查语法、代码统计",
+  "commands": [
+    {
+      "name": "format",
+      "description": "格式化指定文件或目录的 Python 代码",
+      "args": ["path"]
+    },
+    {
+      "name": "check",
+      "description": "检查 Python 代码语法错误",
+      "args": ["path"]
+    },
+    {
+      "name": "stats",
+      "description": "统计代码行数、函数数量等信息",
+      "args": ["path"]
+    },
+    {
+      "name": "list",
+      "description": "列出当前项目的所有 Python 文件",
+      "args": []
+    }
+  ]
+}
